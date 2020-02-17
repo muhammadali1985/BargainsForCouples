@@ -28,6 +28,7 @@ namespace UnitTest
             this.httpClient.BaseAddress = new Uri("http://localhost/findBargain");
             logger = A.Fake<ILogger<BargainAPI>>();
             bargainAPI = new BargainAPI(httpClient, logger);
+            //test
         }
 
         [Fact]
